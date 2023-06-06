@@ -37,7 +37,7 @@ Configuration
 -------------
 
 - ``INDIGO_WELCOME_MESSAGE`` (default: "LET’S TAKE NEW HEIGHTS. TOGETHER.")
-- ``INDIGO_PRIMARY_COLOR`` (default: ``#BE9967``)
+- ``INDIGO_PRIMARY_COLOR`` (default: ``[#BE9967]``)
 - ``INDIGO_FOOTER_NAV_LINKS`` (default: ``[{"title": "About", "url": "/about"}, {"title": "Contact", "url": "/contact"}]``)
 - ``INDIGO_FOOTER_LEGAL_LINKS`` (default: ``[{"title": "Terms of service", "url": "/tos"}, {"title": "COR Inc. theme for Open edX", "url": "https://github.com/AdjusterPro/cor-tutor-indigo"}]``)
 
