@@ -36,10 +36,10 @@ You will then have to enable the "indigo" theme, as per the `Tutor documentation
 Configuration
 -------------
 
-- ``INDIGO_WELCOME_MESSAGE`` (default: "The place for all your online learning")
-- ``INDIGO_PRIMARY_COLOR`` (default: "#3b85ff")
+- ``INDIGO_WELCOME_MESSAGE`` (default: "LET’S TAKE NEW HEIGHTS. TOGETHER.")
+- ``INDIGO_PRIMARY_COLOR`` (default: "#BE9967")
 - ``INDIGO_FOOTER_NAV_LINKS`` (default: ``[{"title": "About", "url": "/about"}, {"title": "Contact", "url": "/contact"}]``)
-- ``INDIGO_FOOTER_LEGAL_LINKS`` (default: ``[{"title": "Terms of service", "url": "/tos"}, {"title": "Indigo theme for Open edX", "url": "https://github.com/overhangio/tutor-indigo"}]``)
+- ``INDIGO_FOOTER_LEGAL_LINKS`` (default: ``[{"title": "Terms of service", "url": "/tos"}, {"title": "COR Inc. theme for Open edX", "url": "https://github.com/AdjusterPro/cor-tutor-indigo"}]``)
 
 The ``INDIGO_*`` settings listed above may be modified by running ``tutor config save --set INDIGO_...=...``. For instance, to remove all links from the footer, run::
 
