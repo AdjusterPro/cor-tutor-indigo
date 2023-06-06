@@ -25,9 +25,9 @@ ABOUT = load_about()
 
 
 setup(
-    name="tutor-indigo",
+    name="cor-tutor-indigo",
     version=ABOUT["__version__"],
-    url="https://github.com/overhangio/tutor-indigo",
+    url="https://github.com/AdjusterPro/cor-tutor-indigo",
     project_urls={
         "Documentation": "https://docs.tutor.overhang.io/",
         "Code": "https://github.com/overhangio/tutor-indigo",
