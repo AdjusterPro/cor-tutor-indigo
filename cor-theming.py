@@ -33,7 +33,7 @@ config = {
 current_dir = os.path.abspath(".")
 
 hooks.Filters.ENV_TEMPLATE_ROOTS.add_item(
-    current_dir + "/templates"
+    current_dir + "/theme-templates/"
 )
 # This is where the theme is rendered in the openedx build directory
 hooks.Filters.ENV_TEMPLATE_TARGETS.add_items(
