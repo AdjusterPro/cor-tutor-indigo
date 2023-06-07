@@ -8,7 +8,7 @@ config = {
     "defaults": {
         "VERSION": "1.0",
         "WELCOME_MESSAGE": "The place for all your online learning YAY",
-        "PRIMARY_COLOR": "#3b85ff",  
+        "PRIMARY_COLOR": "#BE9967",  
         # Footer links are dictionaries with a "title" and "url"
         # To remove all links, run:
         # tutor config save --set INDIGO_FOOTER_NAV_LINKS=[] --set INDIGO_FOOTER_LEGAL_LINKS=[]
