@@ -13,8 +13,9 @@ config = {
         # To remove all links, run:
         # tutor config save --set INDIGO_FOOTER_NAV_LINKS=[] --set INDIGO_FOOTER_LEGAL_LINKS=[]
         "FOOTER_NAV_LINKS": [
-            {"title": "About", "url": "/about"},
-            {"title": "Contact", "url": "/contact"},
+            {"title": "About", "url": "https://adjusterpro.com/about/"},
+            {"title": "Contact", "url": "https://adjusterpro.com/support/"},
+            {"title": "Privacy Policy", "url": "https://adjusterpro.com/privacy-policy/"},
         ],
         "FOOTER_LEGAL_LINKS": [
             {"title": "Terms of service", "url": "/tos"},
