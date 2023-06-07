@@ -8,7 +8,7 @@ config = {
     # Add here your new settings
     "defaults": {
         "VERSION": "1.0",
-        "WELCOME_MESSAGE": "The place for all your online learning",
+        "WELCOME_MESSAGE": "The place for all your online learning YAY",
         "PRIMARY_COLOR": "#3b85ff",  # cool blue
         # Footer links are dictionaries with a "title" and "url"
         # To remove all links, run:
