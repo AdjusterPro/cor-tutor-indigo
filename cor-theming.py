@@ -8,7 +8,7 @@ config = {
     "defaults": {
         "VERSION": "1.0",
         "WELCOME_MESSAGE": "Licensing & Training. Simplified",
-        "PRIMARY_COLOR": "#BE9967", 
+        "PRIMARY_COLOR": "#54698C", 
         # Footer links are dictionaries with a "title" and "url"
         # To remove all links, run:
         # tutor config save --set INDIGO_FOOTER_NAV_LINKS=[] --set INDIGO_FOOTER_LEGAL_LINKS=[]
@@ -56,4 +56,6 @@ hooks.Filters.CONFIG_DEFAULTS.add_items(
 hooks.Filters.CONFIG_UNIQUE.add_items(
     [(f"INDIGO_{key}", value) for key, value in config["unique"].items()]
 )
-hooks.Filters.CONFIG_OVERRIDES.add_items(list(config["overrides"].items()))
+hooks.Filters.CONFIG_OVERRIDES.add_items(
+    [(f"{key}", value) for key, value in config["overrides"].items()]
+)

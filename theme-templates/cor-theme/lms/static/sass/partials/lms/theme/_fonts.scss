@@ -110,3 +110,23 @@
   font-weight: 700;
   font-style: italic;
 }
+
+///////// TTPolls
+
+@font-face {
+  font-family: 'TTPolls';
+  src:
+    url('#{$static-path}/fonts/TTPolls-Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+///////// Roboto
+
+@font-face {
+  font-family: 'Roboto';
+  src:
+    url('#{$static-path}/fonts/RobotoCondensed-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
