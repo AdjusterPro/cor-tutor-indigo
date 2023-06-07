@@ -7,8 +7,8 @@ config = {
     # Add here your new settings
     "defaults": {
         "VERSION": "1.0",
-        "WELCOME_MESSAGE": "The place for all your online learning YAY",
-        "PRIMARY_COLOR": "#BE9967",  
+        "WELCOME_MESSAGE": "Licensing & Training. Simplified",
+        "PRIMARY_COLOR": "#BE9967", 
         # Footer links are dictionaries with a "title" and "url"
         # To remove all links, run:
         # tutor config save --set INDIGO_FOOTER_NAV_LINKS=[] --set INDIGO_FOOTER_LEGAL_LINKS=[]
@@ -19,13 +19,15 @@ config = {
         "FOOTER_LEGAL_LINKS": [
             {"title": "Terms of service", "url": "/tos"},
             {
-                "title": "AP theme for Open edX",
+                "title": "COR theme for Open edX",
                 "url": "https://github.com/AdjusterPro/cor-tutor-indigo",
             },
         ],
     },
     "unique": {},
-    "overrides": {},
+    "overrides": {
+        "PLATFORM_NAME": "COR Learning Classroom Demo",
+    },
 }
 
 # Theme templates
