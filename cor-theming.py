@@ -2,14 +2,11 @@ import pkg_resources
 
 from tutor import hooks
 
-from .__about__ import __version__
-
-
 ################# Configuration
 config = {
     # Add here your new settings
     "defaults": {
-        "VERSION": __version__,
+        "VERSION": "1.0",
         "WELCOME_MESSAGE": "The place for all your online learning",
         "PRIMARY_COLOR": "#3b85ff",  # cool blue
         # Footer links are dictionaries with a "title" and "url"
