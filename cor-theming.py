@@ -24,11 +24,10 @@ config = {
                 "url": "https://github.com/AdjusterPro/cor-tutor-indigo",
             },
         ],
-    },
-    "unique": {},
-    "overrides": {
         "PLATFORM_NAME": "COR Learning Classroom Demo",
     },
+    "unique": {},
+    "overrides": {},
 }
 
 # Theme templates
