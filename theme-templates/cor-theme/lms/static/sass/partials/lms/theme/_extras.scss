@@ -130,14 +130,9 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 
 ////////////////// Login
 
-.small-screen-top-stripe {
-  background-image: none;
-}
-
-.btn-brand {
+.dashboard .btn-brand {
   background-color: #BE9967;
   border-color: #BE9967;
-  color: #fff;
 }
 
 ////////////////// User dashboard /dashboard
@@ -190,7 +185,7 @@ nav.wrapper-preview-menu {
 
 /////////////////// Course search
 .find-courses, .university-profile {
-  background-color: #6EA6EF;
+  background-color: #FFF;
 }
 
 /////////////////// User profile
