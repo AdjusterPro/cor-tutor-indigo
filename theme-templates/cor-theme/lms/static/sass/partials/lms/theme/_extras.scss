@@ -113,8 +113,13 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 }
 
 .home .outer-wrapper .title .course-search .search-button {
-  background-color: #BE9967;
+  background: #BE9967;
+  border: #BE9967;
   /* Add any additional styles here if needed */
+}
+
+.home .courses-container .highlighted-courses .courses {
+  border-bottom: #BE9967;
 }
 
 ////////////////// User dashboard /dashboard
