@@ -116,11 +116,28 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   background: #BE9967;
   border: #BE9967;
   /* Add any additional styles here if needed */
+  &:hover {
+    background: #DFCA7E;
+    border: #DFCA7E;
+    /* Add any additional styles for hover state here */
+  }
 }
 
 .courses-container .courses .course {
   border-bottom-color: #BE9967;
-  border-bottom-width: 5px;
+  border-bottom-width: 4px;
+}
+
+////////////////// Login
+
+.small-screen-top-stripe {
+  background-image: none;
+}
+
+.btn-brand {
+  background-color: #BE9967;
+  border-color: #BE9967;
+  color: #fff;
 }
 
 ////////////////// User dashboard /dashboard
