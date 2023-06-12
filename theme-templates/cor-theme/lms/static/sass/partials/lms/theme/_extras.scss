@@ -91,6 +91,20 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   text-align: center;
 }
 
+.home > header .title .course-search .search-input {
+  border-top-color: #BE9967;
+  border-bottom-color: #BE9967;
+  border-left-color: #BE9967;
+  border-right-color: #BE9967;
+  &:active {
+    border-top-color: #DFCA7E;
+    border-bottom-color: #DFCA7E;
+    border-left-color: #DFCA7E;
+    border-right-color: #DFCA7E;
+    /* Add any additional styles for hover state here */
+  }
+}
+
 .animation-home-header-pop-up, .home > header .outer-wrapper {
   animation: none;
 }
