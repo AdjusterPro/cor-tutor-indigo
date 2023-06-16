@@ -142,6 +142,11 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   border-bottom-width: 4px;
 }
 
+.course-info .container, .course-info section.outside-app, .course-info .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy, .view-profile .profile-self .wrapper-profile-field-account-privacy .course-info .u-field-account_privacy, .course-info .view-profile .wrapper-profile-sections, .view-profile .course-info .wrapper-profile-sections, .course-info .view-profile .badge-set-display, .view-profile .course-info .badge-set-display {
+  position: absolute;
+  padding: 20px;
+}
+
 ////////////////// Login
 
 .dashboard .btn-brand {
